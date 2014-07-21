@@ -1,0 +1,32 @@
+## Interface: 60000
+## Title: Click2Cast
+## Version: 60000
+## Notes: A simple interface for unitframe click casting.
+## Notes-ruRU: Простой аддон для чтения заклинания по клику мыши по фреймам игроков.
+## Notes-koKR: 유닛 프레임 클릭만으로 주문을 시전할 수 있게 해주는 간단한 인터페이스
+## Notes-zhTW: 滑鼠點擊團隊框架施法
+## Notes-deDE: Ein simples Addon um per Klick auf Spieler-Fenstern Zauber auszulösen
+## Author: andreasg [WoW Mouse, 5.X Support By SkOODaT]
+## OptionalDeps: Ace3
+## SavedVariables: Click2CastDB
+## SavedVariablesPerCharacter: Click2CastCharDB
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\AceLocale-3.0\AceLocale-3.0.xml
+Libs\AceDB-3.0\AceDB-3.0.xml
+Libs\AceAddon-3.0\AceAddon-3.0.xml
+Libs\AceGUI-3.0\AceGUI-3.0.xml
+Libs\AceConfig-3.0\AceConfig-3.0.xml
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+Click2Cast-enUS.lua
+Click2Cast-koKR.lua
+Click2Cast-deDE.lua
+Click2Cast-zhCN.lua
+Click2Cast-zhTW.lua
+Click2Cast-frFR.lua
+
+Click2Cast.lua
+Click2CastMenu.lua
+
